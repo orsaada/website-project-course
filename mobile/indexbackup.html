@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="exampleApp">
+<head>
+    <meta charset="utf-8">
+    <title>Multi-Level Drop Down Menu with Pure CSS</title>
+    <!-- Example for relative path -->
+    <link rel="stylesheet" type="text/css" href="css/example-style.css">
+    <!-- Example for absolute path -->
+    <link rel="stylesheet" type="text/css" href="/shared/css/scroll-to-top.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="/shared/js/scroll-to-top.js"></script>
+<!--    <script src="/shared/js/angular.min.js"></script>-->
+    <script src="app/app.module.js"></script>
+    <script src="app/example-list/example-list.module.js"></script>
+    <script src="app/example-list/example-list.component.js"></script>
+    <script src="app/image-list/image-list.module.js"></script>
+    <script src="app/image-list/image-list.component.js"></script>
+    <script src="app/size-list/size-list.module.js"></script>
+    <script src="app/size-list/size-list.component.js"></script>
+    <script src="app/aviv-list/aviv-list.module.js"></script>
+    <script src="app/aviv-list/aviv-list.component.js"></script>
+    <script src="app/shared-list/shared-list.component.js"></script>
+
+</head>
+
+<body>
+<header class="col-12 center">
+</header>
+<button onclick="topFunction()" id="scrollToTopButton" title="Go to top">^</button>
+<main class="col-9 center">
+    <example-list></example-list>
+</main>
+</body>
+</html>

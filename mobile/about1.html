@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link href="../shared/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../shared/layout/scripts/jquery.min.js"></script>
+    <script src="../shared/layout/scripts/jquery.backtotop.js"></script>
+    <script src="../shared/layout/scripts/jquery.mobilemenu.js"></script>
+    <script src="../shared/js/scroll-to-top.js"></script>
+<!--    <script src="../shared/js/angular.min.js"></script>-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body id="top">
+<style>
+    .history {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 100px;
+    }
+</style>
+<div class="container-fluid" style="@media only screen and (max-width: 768px)
+  .history {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+  }
+}">
+    <div class=" row1">
+        <header id="header" class="hoc clear">
+            <ul style="list-style-type: none;">
+                <li class="searching bar" style="">
+                    <form class="form-inline form-group">
+                        <input class="form-group form-control mr-sm-2" type="search" style="height: 40px"
+                               placeholder="Search For Emojies.."
+                               aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" style="height: 40px; width: 100px"
+                                type="submit">Search
+                        </button>
+                    </form>
+                </li>
+                <li><h1>About Emojier</h1>
+                <li class="searching bar">
+
+                    <div class="wrapper" style="margin-top: 10px">
+                        <img src="../shared/images/animated.png" alt="characters-animated" width="100%"
+                             height="80%">
+                    </div>
+
+                </li>
+            </ul>
+
+        </header>
+    </div>
+    <style>.navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        display: inline-block;
+        float: none;
+    }
+    </style>
+    <div class="wrapper row4">
+        <nav id="mainav" class="hoc clear">
+            <ul class="clear">
+                <li><a href="index.html">home</a></li>
+                <li class="active"><a href="about.html">about</a></li>
+                <li><a href="dynamic.html">dynamic</a></li>
+                <li><a href="form.html">form</a></li>
+            </ul>
+
+<!--            <form action="#" ><select>-->
+<!--                <option selected="selected" value="">about</option>-->
+<!--                <option value="index.html">Home</option>-->
+<!--                <option value="about.html">About</option>-->
+<!--                <option value="dynamic.html">Dynamic</option>-->
+<!--                <option value="form.html">Form</option>-->
+<!--            </select></form>-->
+        </nav>
+    </div>
+    <div id=breadcrumb>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./dynamic.html">About</a></li>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-3 box container-fluid">
+            <h2 class="center">WHO ARE WE ?</h2>
+            <div class="row" style="padding: 1em;">
+                <div class="column " style="width: 50%; ">
+                    <h3 class="center">or saada</h3>
+                    <img src="./images/orrr/or%20coding.jpeg" alt="Snow" style="width:100%">
+                    <p>Or Saada,<br>
+                        Software Engineering Student<br>
+                        try to receive an A++ </p>
+                </div>
+                <div class="column" style="width: 50%;">
+                    <h3 class="center">iddo gal</h3>
+                    <img src="./images/orrr/or%20coding.jpeg" alt="Forest" style="width:100%">
+                    <p>Iddo Gal,<br>
+                        Software Engineering Student<br>
+                        try to receive an A++ </p>
+                </div>
+                <p>this is our first web page, looking for investors,
+                    the app is in a</p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-6 box">
+            <p style="text-align: center">this is a "super" application for making yout own emoji.<br>
+                we belive that our product will make your life easier and more fun.<br>
+                reach your text messging with your emoji which looks like you and by your acting like you.
+                <br>
+                <br>
+            </p>
+            <div class="column" style="text-align: center">
+                <img src="./images/orrr/or%20100%20ballons.jpeg" alt="Snow" style="width:50%">
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-3 box">
+            <p>for techincal support through email:<br>
+                <a href="mailto:barney@example.com">Email Barney Today!</a><br>
+                for personal email to or saada:<br>
+                <a href="mailto:or@example.com">Email Or Today!</a><br>
+                for personal email to iddo gal:<br>
+                <a href="mailto:ido@example.com">Email Ido Today!</a><br>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+/*!* Unoriginal CSS Block - START*/
+/* Taken from: http://www.cssscript.com/create-a-multi-level-drop-down-menu-with-pure-css/   */
+/* *!*/
+/*nav ul {*/
+/*  list-style: none;*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*  background: #1bc2a2;*/
+/*}*/
+
+/*nav ul li {*/
+/*  display: block;*/
+/*  position: relative;*/
+/*  float: left;*/
+/*  background: #1bc2a2;*/
+/*}*/
+
+/*!* This hides the dropdowns *!*/
+
+
+/*nav li ul { display: none; }*/
+
+/*nav ul li a {*/
+/*  display: block;*/
+/*  padding: 1em;*/
+/*  text-decoration: none;*/
+/*  white-space: nowrap;*/
+/*  color: #fff;*/
+/*}*/
+
+/*nav ul li a:hover { */
+/*  background: #2c3e50 !important; */
+/*}*/
+
+/*!* Display the dropdown *!*/
+
+
+/*nav li:hover > ul {*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*}*/
+
+/*nav li:hover li { float: none; }*/
+
+/*nav li:hover a { background: #1bc2a2; }*/
+
+/*nav li:hover li a:hover { background: #2c3e50; }*/
+
+/*nav ul li ul li { border-top: 0; }*/
+
+/*!* Displays second level dropdowns to the right of the first level dropdown *!*/
+
+
+/*nav ul ul ul {*/
+/*  left: 100%;*/
+/*  top: 0;*/
+/*}*/
+
+/*!* Simple clearfix *!*/
+
+
+
+/*nav ul:before,*/
+/*nav ul:after {*/
+/*  content: " "; !* 1 *!*/
+/*  display: table; !* 2 *!*/
+/*}*/
+
+/*nav ul:after { clear: both; }*/
+
+/*!* Unoriginal CSS Block - END*/
+/* Taken from: http://www.cssscript.com/create-a-multi-level-drop-down-menu-with-pure-css/   */
+/* *!*/

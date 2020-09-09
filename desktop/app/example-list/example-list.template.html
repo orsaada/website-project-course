@@ -1,0 +1,11 @@
+<ul style="list-style-type: none; -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3">
+    <li ng-repeat="item in $ctrl.list">
+          <h2>{{item.name}}</h2>
+        <img ng-src="{{item.imageUrl}}" alt="{{item.name}}" width="100px" height="100px"/>
+        <br>
+
+        <p>{{item.snippet}}</p>
+    </li>
+</ul>

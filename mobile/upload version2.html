@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css"
+          rel="stylesheet" type="text/css"/>
+    <script src="../shared/layout/scripts/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+    <meta charset=utf-8/>
+    <title>JS Bin</title>
+    <!--    &lt;!&ndash;[if IE]>-->
+    <!--    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+    <!--    <![endif]&ndash;&gt;-->
+    <!--    <style>-->
+    <!--        article, aside, figure, footer, header, hgroup,-->
+    <!--        menu, nav, section {-->
+    <!--            display: block;-->
+    <!--        }-->
+    <!--    </style>-->
+</head>
+<body>
+<form>
+    <input type='file' onchange="readURL(this);"/>
+    <button onclick="readURL(this)">submit</button>
+
+</form>
+
+</body>
+</html>
+
+
+<script>
+    $('#btn').on('click', function() {
+    $("#form1").valid();
+});
+
+    function readURL(input) {
+        if (input.files && input.files[0] && input.) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(150)
+                    .height(200);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+
+
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(150)
+                    .height(200);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    function function1() {
+        var ul = document.getElementById("list");
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode("Four"));
+        ul.appendChild(li);
+    }
+</script>]
+

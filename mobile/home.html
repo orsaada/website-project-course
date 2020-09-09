@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title class="clear" style="pointer-events: painted; padding-bottom: 10px">Emojier - Create Yourself</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link href="../shared/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../shared/layout/scripts/jquery.min.js"></script>
+    <script src="../shared/layout/scripts/jquery.backtotop.js"></script>
+    <script src="../shared/layout/scripts/jquery.mobilemenu.js"></script>
+    <script src="/shared/js/scroll-to-top.js"></script>
+<!--    <script src="/shared/js/angular.min.js"></script>-->
+
+    <!-- Required meta tags -->
+    <!--    <meta charset="utf-8">-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+
+</head>
+<script>
+    $("#search button").ready(function () {
+        $("#search button").on("sea", function () {
+            let words = $("#search input").val().toLowerCase();
+            alert("words");
+            pathname = os.path.dirname(sys.argv[0]);
+            // console.log(pathname);
+            // console.log(words);
+            $("#myList li").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
+
+<body>
+<div class="container-fluid" style="@media only screen and (max-width: 768px)
+  .history {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+  }
+}">
+    <div class=" row1">
+        <header id="header" class="hoc clear">
+            <ul style="list-style-type: none;">
+                <li class="searching bar" style="position: relative">
+                    <form class="form-inline form-group">
+                        <input class="form-group form-control mr-sm-2" type="search" style="height: 40px"
+                               placeholder="Search For Emojies.."
+                               aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" style="height: 40px; width: 100px"
+                                type="submit">Search
+                        </button>
+                    </form>
+                </li>
+                <li><a href="index.html" class="logo"> Mojier - Home</a></li>
+                <li class="searching bar">
+
+                    <div class="wrapper" style="margin-top: 10px">
+                        <img src="../shared/images/animated.png" alt="characters-animated" width="100%"
+                             height="80%">
+                    </div>
+
+                </li>
+            </ul>
+
+        </header>
+    </div>
+    <style>.navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        display: inline-block;
+        float: none;
+    }
+    </style>
+    <div class="wrapper row4">
+        <nav id="mainav" class="hoc clear">
+            <ul class="clear" style="font-min-size: 200px">
+                <li class="active"><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="dynamic.html">dynamic</a></li>
+                <li><a href="form.html">form</a></li>
+            </ul>
+
+            <form action="#"><select>
+                <option value="index.html">Home</option>
+                <option selected = "selected" value="about.html">About</option>
+                <option value="dynamic.html">Dynamic</option>
+                <option value="form.html">Form</option>
+            </select></form>
+        </nav>
+    </div>
+    <div id=breadcrumb>
+        <li><a href="./index.html">Home</a></li>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-3 box">
+                        <img src="./images/aa.jpeg" alt="Girl in a jacket" width="100%" height="150">
+            <h2>left Side</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+        </div>
+        <div class="col-xs-12 col-6 box" style="position: relative;text-align:center;">
+            <h1 class="heading" style="font-feature-settings: normal"> create your own emoji is now easy than ever<br>
+                just download the application on the link below</h1>
+            <a style="padding: 0; position: center;"
+               href='https://play.google.com/store/apps/details?id=com.picmax.wemoji&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                    style="
+  height:200px;" alt='Get it on Google Play'
+                    src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+            <!--<a href="http://google.com" style="width:100%" > Download The Application</a>-->
+            <!--            <a href="http://google.com" style="width:100%" class="btn fa fa-download center"> Download The-->
+            </a>
+            <div class="video-container">
+                <iframe width="100%" height="480" src="https://www.youtube.com/embed/4HPkf2cqXp8?start=32"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="col-xs-12 col-3 box">
+            <img src="./images/aa.jpeg" alt="Girl in a jacket" width="100%" height="150">
+        </div>
+    </div>
+</div>
+
+
+<footer style="text-align:center;">
+    &copy; 2019 Emojier.com
+</footer>
+</body>
+</html>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="../shared/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">

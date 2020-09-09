@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title class="clear" style="pointer-events: painted; padding-bottom: 10px">Emojier - Form</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../shared/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../shared/layout/scripts/jquery.min.js"></script>
+    <script src="../shared/layout/scripts/jquery.backtotop.js"></script>
+    <script src="../shared/js/form.js"></script>
+</head>
+<body id="top">
+<div class="container-fluid"
+     style="@media only screen and (max-width: 768px)
+     .history {display: grid;grid-template-columns: 1fr;padding: 1em;grid-row-gap: 100px;}">
+    <div class="row1">
+        <header id="header" class="hoc clear">
+            <ul style="list-style-type: none;">
+                <li class="searching bar" style="position: relative">
+                    <form class="form-inline form-group">
+                        <input class="form-group form-control mr-sm-2" type="search" style="height: 40px"
+                               placeholder="Search For Emojies.."
+                               aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" style="height: 40px; width: 100px"
+                                type="submit">Search
+                        </button>
+                    </form>
+                </li>
+                <li><a href="form.html" class="logo">Form - leave us your contact indormation</a></li>
+                <li class="searching bar">
+
+                    <div class="wrapper" style="margin-top: 10px">
+                        <img src="../shared/images/animated.png" alt="characters-animated" width="100%"
+                             height="80%">
+                    </div>
+
+                </li>
+            </ul>
+
+        </header>
+    </div>
+    <div class="wrapper row4">
+        <nav id="mainav" class="hoc clear">
+            <ul class="clear" style="font-min-size: 200px;    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="dynamic.html">dynamic</a></li>
+                <li class="active"><a href="form.html">form</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id=breadcrumb>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./form.html">Form</a></li>
+        </ul>
+    </div>
+
+    <div class="column side">
+    </div>
+    <section class="middle">
+        <div class="column middle center">
+            <p style="font-size: large">Leave us your details for getting notification about new emojies and features in
+                Emojier application<br>
+                between the contacts, we will lottery an emoji designed by the known artist, Denis Sarazhin.
+            </p>
+            <form name="dataform" class="form" st>
+                <label for="firstname">First Name:</label>
+                <div class="form-group">
+
+                    <input name="fname" type="text" class="form-control" id="firstname" placeholder="Enter first Name">
+                </div>
+                <div class="form-group">
+                    <label for="Lastname">Last Name:</label>
+                    <input name="lname" type="text" class="form-control" id="Lastname" placeholder="Enter Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input name="useremail" type="email" class="form-control" id="email" placeholder="Enter Email">
+                </div>
+                <button type="submit" onclick="display()" class="btn btn-default">Submit</button>
+            </form>
+            <br>
+            <footer style="text-align:center;">
+                &copy; 2019 Mojier.com
+            </footer>
+        </div>
+
+    </section>
+
+    <div class="column side">
+        <p style="font-size: large">
+            for techincal support through email:
+            <a href="mailto:barney@example.com">Email Barney Today!</a>
+        </p>
+
+    </div>
+</div>
+
+</body>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="../shared/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</html>

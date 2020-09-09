@@ -1,0 +1,14 @@
+css:
+    1. framework.css -
+    2. layout.css -
+    3. font-awesome.min.css -
+
+
+
+
+js:
+    1. dynamic.js   - https://stackoverflow.com/questions/12368910/html-display-image-after-selecting-filename
+    2. dynamic.js - https://stackoverflow.com/questions/20673959/how-to-add-new-li-to-ul-onclick-with-javascript
+
+
+
